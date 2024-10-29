@@ -51,10 +51,8 @@ export default function CreateProjectPage() {
   };
 
   useEffect(() => {
-    if (project) {
-      router.push(`/project/${project.id}`);
-    }
-  }, [project, router]); // Added project and router to the dependencies
+    if (project) router.push(`/project/${project.id}`);
+  }, [loading]);
 
   if (!isOrgLoaded || !isUserLoaded) {
     return null;
