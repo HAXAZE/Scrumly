@@ -66,7 +66,7 @@ export default function IssueCreationDrawer({
     if (isOpen && orgId) {
       fetchUsers(orgId);
     }
-  }, [isOpen, orgId]);
+  }, [isOpen, orgId, fetchUsers]); // Added fetchUsers
 
   const onSubmit = async (data) => {
     await createIssueFn(projectId, {
@@ -82,8 +82,9 @@ export default function IssueCreationDrawer({
       onClose();
       onIssueCreated();
     }
+    // Including createIssueFn to ensure proper behavior if it changes
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [newIssue, createIssueLoading]);
+  }, [newIssue, createIssueLoading, reset, onClose, onIssueCreated, createIssueFn]);
 
   return (
     <Drawer open={isOpen} onClose={onClose}>
