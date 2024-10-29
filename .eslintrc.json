@@ -1,38 +1,6 @@
 {
-  "parser": "@babel/eslint-parser",
-  "parserOptions": {
-    "requireConfigFile": false,
-    "ecmaVersion": 2020,
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "jsx": true // Enable JSX parsing
-    }
-  },
-  "env": {
-    "browser": true,
-    "es6": true,
-    "node": true,
-    "jest": true // Include this if you are using Jest for testing
-  },
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended" // Uses the recommended rules from the React plugin
-  ],
-  "plugins": [
-    "react" // Adds React-specific linting rules
-  ],
+  "extends": "next/core-web-vitals",
   "rules": {
-    "no-undef": "error" // Treat undefined variables as errors
-  },
-  "globals": {
-    "process": "readonly", // Prevent 'process' is not defined errors
-    "module": "readonly",   // Prevent 'module' is not defined errors
-    "globalThis": "readonly" // Prevent 'globalThis' is not defined errors
-  },
-  "settings": {
-    "react": {
-      "version": "detect" // Automatically detect the React version
-    }
+    "no-unused-vars": ["warn"]
   }
 }
-  
