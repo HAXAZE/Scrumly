@@ -24,6 +24,7 @@ Responsive UI: Modern, easy-to-navigate interface with Tailwind CSS and Shadcn U
 To run this project, you will need to add the following environment variables to your .env file
 
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY
+
 CLERK_SECRET_KEY
 
 NEXT_PUBLIC_CLERK_SIGN_IN_URL 
