@@ -4,10 +4,8 @@
 # Zcrum
 
 
-Here’s an updated README with a brief description at the beginning:
 
 Zcrum - Project Management App
-Zcrum GitHub Repository
 
 Zcrum is a Jira-inspired project management tool designed for teams and individuals seeking to enhance their workflow and collaboration. It provides a platform for seamless task tracking, real-time updates, and efficient user management, making it ideal for project managers, developers, and any team looking to optimize their project management processes.
 
