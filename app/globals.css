@@ -87,11 +87,17 @@ body {
 } */
 
 .animated-dotted-background {
+  background-color: #000000;
+  background-image: radial-gradient(#000000 1px, transparent 1px);
+  background-size: 30px 30px;
+  /* animation: moveDots 10s linear infinite; */
+}
+/* .animated-dotted-background {
   background-color: #0a111f;
   background-image: radial-gradient(#4a5568 1px, transparent 1px);
   background-size: 30px 30px;
   /* animation: moveDots 10s linear infinite; */
-}
+/* }  */
 
 @layer utilities {
   .gradient-title {
@@ -104,3 +110,12 @@ body {
   padding-left: 15px !important;
   color: white;
 }
+
+/* Add this to your CSS file */
+.gradient-title {
+  background: linear-gradient(to right, #6ee7b7, #3b82f6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
