@@ -10,7 +10,7 @@ import { Toaster } from "sonner";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Zcrum",
+  title: "Scrumly",
   description: "",
 };
 
@@ -41,17 +41,7 @@ export default function RootLayout({ children }) {
             <Toaster richColors />
             <footer className="bg-gray-900 py-12">
               <div className="container mx-auto px-4 text-center text-gray-200">
-                <p>
-                  Made with 🤎 by{" "}
-                  <a
-                    href="https://www.linkedin.com/in/haxaze/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-400 hover:underline"
-                  >
-                    Haxaze
-                  </a>
-                </p>
+                <p>Made with 🩵 by Haxaze</p>
               </div>
             </footer>
           </ThemeProvider>
