@@ -324,7 +324,7 @@ export default function Home() {
       </section>
 
       {/* FAQ Section */}
-      <section className="bg-gray-900 py-20 px-5">
+      <section className="bg-none-900 py-20 px-5">
         <div className="container mx-auto">
           <h3 className="text-3xl font-bold mb-12 text-center">
             Frequently Asked Questions

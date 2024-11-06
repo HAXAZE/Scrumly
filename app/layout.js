@@ -40,10 +40,15 @@ export default function RootLayout({ children }) {
             <main className="min-h-screen">{children}</main>
             <Toaster richColors />
             <footer className="bg-gray-900 py-12">
-              <div className="container mx-auto px-4 text-center text-gray-200">
-                <p>Made with 🩵 by Haxaze</p>
-              </div>
-            </footer>
+  <div className="container mx-auto px-4 text-center text-gray-200">
+    <p>
+      Made with 🩵 by{' '}
+      <a href="https://www.linkedin.com/in/haxaze/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-600">
+        Haxaze
+      </a>
+    </p>
+  </div>
+</footer>
           </ThemeProvider>
         </body>
       </html>
