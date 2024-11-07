@@ -38,12 +38,8 @@ DATABASE_URL
 **Client:** Next.js, TailwindCSS
 
 **Server:** Node, Prisma, PostgreSQL
+<img width="1680" alt="image" src="https://github.com/user-attachments/assets/9f6ca1a6-4f1b-4112-91fc-e4e0b20b5c60">
+<img width="1677" alt="image" src="https://github.com/user-attachments/assets/c54d62cf-2512-4e99-94e8-5570d4eea3d3">
 
-<img width="1679" alt="image" src="https://github.com/user-attachments/assets/d93101eb-f597-43ff-af7a-9e6ea6e8a83e">
 
-<img width="1678" alt="image" src="https://github.com/user-attachments/assets/464605a3-d92e-45ff-a593-9c69511b447d">
-
-<img width="1680" alt="image" src="https://github.com/user-attachments/assets/9428c0ef-ceb8-436c-9238-bf752d4a48bf">
-
-<img width="1680" alt="image" src="https://github.com/user-attachments/assets/c4e0d6da-1a63-4958-843e-0b5d7013dd07">
 
